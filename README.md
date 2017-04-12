@@ -1,4 +1,4 @@
-# Example Resource
+# Using pip on Windows
 
 ![](cover.png)
 
