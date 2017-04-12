@@ -112,14 +112,16 @@ Now that you can use Python from the command line, you can use pip! These instru
 1. If you use online guides, you may often see instructions for installing Python packages with pip on **Linux**, for example you might see this command given to install the Pygame library:
 
     ```bash
-    sudo pip3 install pygame
+    sudo pip3 install pgzero
     ```
 
     This command won't work on Windows. To convert it into a command you can use, take the name of the library and type `pip install` in front of it:
 
     ```bash
-    pip install pygame
+    pip install pgzero
     ```
+
+    ![Successfully install pgzero](images/pip-install-pgzero.png)  
 
 ## What's next
 
