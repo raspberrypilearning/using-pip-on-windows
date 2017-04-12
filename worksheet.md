@@ -10,7 +10,7 @@ If you have used Python before, you may have used code similar to these examples
 from time import sleep
 ```
 
-or perhaps
+...or perhaps...
 
 ```python
 import random
@@ -22,7 +22,7 @@ However, lots of other code libraries which do useful things exist, and you migh
 
 ![PIL not working](images/pil-doesnt-work.png)
 
-This is where you need **pip**. You can use pip to install Python libraries on your computer so that you can use them in your programs. You have probably seen instructions for installing Python libraries in guides on the Raspberry Pi website and on other websites. **pip** is already installed on the Raspberry Pi with the standard Raspbian distribution. Howver, if you are using a Windows computer at home or at school, you may not have pip available as standard.
+This is where you need **pip**. You can use pip to install Python libraries on your computer so that you can use them in your programs. You have probably seen instructions for installing Python libraries in guides on the Raspberry Pi website and on other websites. **pip** is already installed on the Raspberry Pi with the standard Raspbian distribution. However, if you are using a Windows computer, you may not have pip available as standard.
 
 This resource will show you how to get pip working on a Windows computer.
 
@@ -34,9 +34,9 @@ First, let's check whether you already have pip installed:
 
     ![Open a command prompt](images/cmd-prompt.png)
 
-    If you are not using a home computer (e.g. you are using a computer on a school network), you may not see `Command Prompt` appear in the menu, or you may not be allowed to open it as you lack administrator privileges. Please speak to your network manager about whether you are permitted to use the command prompt to install Python software as it is common for command prompt access to be disabled. If you are not permitted to use the command prompt, pass this guide to your network manager so that they can install Python libraries on your behalf.
+    If you are not using your own computer at home (e.g. you are using a computer on a school network), you may not see `Command Prompt` appear in the menu, or you may not be allowed to open it as you lack administrator privileges. Please speak to your network manager about whether your network allows the use of the command prompt to install Python software as it is common for access to be blocked. If you are not permitted to use the command prompt, pass this guide to your network manager so that they can install Python libraries on your behalf.
 
-1. Type in the following command to see if pip is already installed:
+1. Type the following command into the command prompt and press Enter to see if pip is already installed:
 
     ```bash
     pip --version
@@ -62,7 +62,7 @@ If you walked outside and found a Python on your path it would be really bad! Ho
 
     ![Python is on the path](images/python-working.png)
 
-    If you get an error message instead, follow the steps below to add Python to your PATH.
+    If you saw Python start up, skip to the next section. If you saw an error message instead, follow the steps below to add Python to your PATH.
 
 1. In the Windows search bar, type in `python.exe` but DON’T click on it in the menu. Instead, __right click__ on it and select **Open file location**
 
@@ -84,24 +84,26 @@ If you walked outside and found a Python on your path it would be really bad! Ho
 
     ![Access path variable](images/env-variables.png)    
 
-1. In this menu, click `New` and then paste in the address you copied earlier. Then click `New` again, paste in the address again and add `Scripts\` at the end. Press `OK` twice to exit this dialogue box.
+1. In this popup box click `New` and then paste in the address you copied earlier. Then click `New` again, paste in the address again and add `Scripts\` at the end. Press `OK` twice to finish editing environment variables.
 
     ![Add Python to the path](images/add-python-path.png)  
 
-1. Close the command prompt window if it is still open, then re-open it. This will make sure the changes have taken effect in the command prompt you are using. Once again, type in `python` at the command prompt and press the enter key. You should now see Python start successfully. Press `Ctrl` + `c` to exit the Python shell.
+1. Close the command prompt window if it is still open, then re-open it. This will make sure the changes have taken effect in the command prompt you are using.
+
+1. Once again, type in `python` at the command prompt and press the enter key. You should now see Python start successfully. Press `Ctrl` + `c` to exit the Python shell.
 
 
 ## Installing pip
 
 Now that you can use Python from the command line, you can use pip! These instructions should work for Python version 3.4 or above. If you are using an earlier version of Python, you can upgrade to a newer version from the [Python website](https://www.python.org/downloads/)
 
-1. At the command prompt type the following command:
+1. At the command prompt, type the following command to upgrade pip:
 
     ```python
     python -m pip install -U pip
     ```
 
-1. Now you can use pip! You can install libraries using the `pip install` command, for example if you wanted to download the guizero library you would type this:
+1. Now you can use pip! You can install libraries using the `pip install` command. For example, if you wanted to download the **guizero** library you would type this:
 
     ```bash
     pip install guizero
@@ -113,7 +115,7 @@ Now that you can use Python from the command line, you can use pip! These instru
     sudo pip3 install pygame
     ```
 
-    To convert this into a command you can use on Windows, just take the name of the library and type `pip install` in front of it:
+    This command won't work on Windows. To convert it into a command you can use, take the name of the library and type `pip install` in front of it:
 
     ```bash
     pip install pygame
