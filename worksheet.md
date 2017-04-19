@@ -1,6 +1,6 @@
 # Using pip on Windows
 
-In this resource you will learn how to use pip on Windows so that you can easily install useful Python software
+In this resource you will learn how to use pip on Windows so that you can easily install useful Python software.
 
 ## What is pip?
 
@@ -18,11 +18,11 @@ import random
 
 In the examples above, you are using code from a **library** written by somebody else. The libraries in the examples above are called `time` and `random` and are included by default when you install Python.
 
-However, lots of other code libraries which do useful things exist, and you might want to use some of the functions in your Python programs. For example if you want to manipulate images you might want to use `PIL`, you could make games with `pygame` or craft GUIs with `guizero`. However, if you try to use these libraries without installing them, they won't work:
+However, lots of other code libraries exist, and you might want to use some of their functions in your Python programs. For example, if you want to manipulate images you might want to use `PIL`, you could make games with `pygame` or craft GUIs with `guizero`. However, if you try to use these libraries without installing them, they won't work:
 
 ![PIL not working](images/pil-doesnt-work.png)
 
-This is where you need **pip**. You can use pip to install Python libraries on your computer so that you can use them in your programs. You have probably seen instructions for installing Python libraries in guides on the Raspberry Pi website and on other websites. **pip** is already installed on the Raspberry Pi with the standard Raspbian distribution. However, if you are using a Windows computer, you may not have pip available as standard.
+This is where you need **pip**. You can use pip to install Python libraries on your computer so that you can use them in your programs. You have probably seen instructions for installing Python libraries in guides on the Raspberry Pi website and on other websites. A Raspberry Pi with the standard Raspbian distribution will have **pip** already installed. However, if you are using a Windows computer, you may not have pip available as standard.
 
 This resource will show you how to get pip working on a Windows computer.
 
@@ -30,11 +30,11 @@ This resource will show you how to get pip working on a Windows computer.
 
 First, let's check whether you already have pip installed:
 
-1. Open a command prompt by typing `cmd` into the search bar and then clicking on `Command Prompt` in the menu:
+1. Open a command prompt by typing `cmd` into the search bar and then clicking on **Command Prompt** in the menu:
 
     ![Open a command prompt](images/cmd-prompt.png)
 
-    If you are not using your own computer at home (e.g. you are using a computer on a school network), you may not see `Command Prompt` appear in the menu, or you may not be allowed to open it as you lack administrator privileges. Please speak to your network manager about whether your network allows the use of the command prompt to install Python software as it is common for access to be blocked. If you are not permitted to use the command prompt, pass this guide to your network manager so that they can install Python libraries on your behalf.
+    If you are not using your own computer at home (for example, if you are using a computer on a school network), you may not see **Command Prompt** appear in the menu, or you may not be allowed to open it because you don't have administrator privileges. Please speak to your network manager about whether your network allows the use of the command prompt to install Python software, as it is common for access to be blocked. If you are not permitted to use the command prompt, pass this guide to your network manager so they can install Python libraries on your behalf.
 
 1. Type the following command into the command prompt and press Enter to see if pip is already installed:
 
@@ -56,7 +56,7 @@ First, let's check whether you already have pip installed:
 
 ## Is Python on your PATH?
 
-If you walked outside and found a Python on your path it would be really bad! However, we're talking about whether the location of Python is on the Windows `PATH` which is a list of places Windows automatically looks for software.
+If you walked outside and found a Python on your path it would be really bad! However, we're talking about whether the location of Python is on the Windows `PATH`, which is a list of places where Windows automatically looks for software.
 
 1. In the command prompt, type `python` and press the enter key. If Python is on your PATH, you should see it start up:
 
@@ -64,33 +64,33 @@ If you walked outside and found a Python on your path it would be really bad! Ho
 
     If you saw Python start up, skip to the next section. If you saw an error message instead, follow the steps below to add Python to your PATH.
 
-1. In the Windows search bar, type in `python.exe` but DON’T click on it in the menu. Instead, __right click__ on it and select **Open file location**
+1. In the Windows search bar, type in `python.exe`, but **don't** click on it in the menu. Instead, **right click** on it and select **Open file location**
 
     ![Find where Python is installed](images/find-python-location.png)
 
-1. A window should open up with some files and folders - this is where Python is installed. Right click on the address bar at the top and select `Copy address as text`
+1. A window should open up with some files and folders: this is where Python is installed. Right click on the address bar at the top and select **Copy address as text**.
 
     ![Copy Python location](images/copy-address.png)
 
-1. From the main Windows menu, open the Control Panel
+1. From the main Windows menu, open the Control Panel:
 
     ![Open control panel](images/control-panel.png)
 
-1. In the search box on the top right, type in `environment`, then in the search results click on `Edit environment variables for your account`
+1. In the search box on the top right, type in `environment`, then in the search results click on **Edit environment variables for your account**:
 
     ![Environment variables](images/environment.png)
 
-1. If there is already a variable listed called `Path`, click on it to select it then click `Edit...`. If it does not exist, instead click `New...`
+1. If there is already a variable listed called **Path**, click on it to select it, then click **Edit...**. If it does not exist, instead click **New...**
 
     ![Access path variable](images/env-variables.png)    
 
-1. In this popup box click `New` and then paste in the address you copied earlier. Then click `New` again, paste in the address again and add `Scripts\` at the end. Press `OK` twice to finish editing environment variables.
+1. In this popup box click **New** and then paste in the address you copied earlier. Then click **New** again, paste in the address again and add `Scripts\` at the end. Press OK twice to finish editing environment variables.
 
     ![Add Python to the path](images/add-python-path.png)  
 
-1. Close the command prompt window if it is still open, then re-open it. This will make sure the changes have taken effect in the command prompt you are using.
+1. If the the command prompt window is still open, close it, then re-open it. This will make sure the changes have taken effect in the command prompt you are using.
 
-1. Once again, type in `python` at the command prompt and press the enter key. You should now see Python start successfully. Press `Ctrl` + `c` to exit the Python shell.
+1. Once again, type in `python` at the command prompt and press the Enter key. You should now see Python start successfully. Press `Ctrl` + `c` to exit the Python shell.
 
 
 ## Installing pip
@@ -103,7 +103,7 @@ Now that you can use Python from the command line, you can use pip! These instru
     python -m pip install -U pip
     ```
 
-1. Now you can use pip! You can install libraries using the `pip install` command. For example, if you wanted to download the **guizero** library you would type this:
+1. Now you can use pip! You can install libraries using the `pip install` command. For example, if you wanted to download the `guizero` library you would type this:
 
     ```bash
     pip install guizero
@@ -123,7 +123,7 @@ Now that you can use Python from the command line, you can use pip! These instru
 
     ![Successfully install pgzero](images/pip-install-pgzero.png)  
 
-## What's next
+## What next?
 
 Have fun using pip to install lots of new packages! Why not try these resources which require Python libraries to be installed:
 - [Getting started with GUIs](http://www.raspberrypi.org/learning/getting-started-with-guis)
