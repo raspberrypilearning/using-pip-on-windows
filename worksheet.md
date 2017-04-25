@@ -68,9 +68,11 @@ If you walked outside and found a Python on your path it would be really bad! Ho
 
     ![Find where Python is installed](images/find-python-location.png)
 
-1. A window should open up with some files and folders: this is where Python is installed. Right click on the address bar at the top and select **Copy address as text**.
+1. A window should open up with some files and folders: this should be where Python is installed. Right click on the address bar at the top and select **Copy address as text**.
 
     ![Copy Python location](images/copy-address.png)
+
+    Note: If the address bar contains the words **Start menu** then you are probably looking at a shortcut to Python. Right click again on the file called `Python 3.x` (where `3.x` is the version number of your Python installation) and select **Open file location** until you see a folder containing a file called `python.exe`.
 
 1. From the main Windows menu, open the Control Panel:
 
@@ -84,9 +86,13 @@ If you walked outside and found a Python on your path it would be really bad! Ho
 
     ![Access path variable](images/env-variables.png)    
 
-1. In this popup box click **New** and then paste in the address you copied earlier. Then click **New** again, paste in the address again and add `Scripts\` at the end. Press OK twice to finish editing environment variables.
+1. If your popup box looks like this, click **New** and then paste in the address you copied earlier. Then click **New** again, paste in the address again and add `Scripts\` at the end. Press OK twice to finish editing environment variables.
 
     ![Add Python to the path](images/add-python-path.png)  
+
+1. If your popup box has only a single line for variable value, paste in the address, then type a semicolon `;` then paste in the address again and add `Scripts\` at the end. Press OK to finish editing environment variables.
+
+    ![Add path in a single line box](images/small-popups.png)  
 
 1. If the the command prompt window is still open, close it, then re-open it. This will make sure the changes have taken effect in the command prompt you are using.
 
