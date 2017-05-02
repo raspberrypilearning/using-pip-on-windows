@@ -72,7 +72,7 @@ If you walked outside and found a Python on your path it would be really bad! Ho
 
     ![Copy Python location](images/copy-address.png)
 
-    Note: If the address bar contains the words **Start menu** then you are probably looking at a shortcut to Python. Right click again on the file called `Python 3.x` (where `3.x` is the version number of your Python installation) and select **Open file location** until you see a folder containing a file called `python.exe`.
+    Note: if the address bar contains the words **Start menu**, then you are probably looking at a shortcut to Python. Right-click on the file called `Python 3.x` (where `3.x` is the version number of your Python installation) and select **Open file location** until you see a folder containing a file called `python.exe`.
 
 1. From the main Windows menu, open the Control Panel:
 
