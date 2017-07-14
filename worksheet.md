@@ -101,7 +101,7 @@ If you walked outside and found a Python on your path it would be really bad! Ho
 
 ## Installing pip
 
-Now that you can use Python from the command line, you can use pip! These instructions should work for Python version 3.4 or above. If you are using an earlier version of Python, you can upgrade to a newer version from the [Python website](https://www.python.org/downloads/)
+Now that you can use Python from the command line, you can use pip! These instructions should work for Python version 3.4 or above. If you are using an earlier version of Python, you can upgrade to a newer version from the [Python website](https://www.python.org/downloads/).
 
 1. At the command prompt, type the following command to upgrade pip:
 
@@ -115,7 +115,7 @@ Now that you can use Python from the command line, you can use pip! These instru
     pip install guizero
     ```
 
-1. If you use online guides, you may often see instructions for installing Python packages with pip on **Linux**, for example you might see this command given to install the Pygame library:
+1. If you use online guides, you may often see instructions for installing Python packages with pip on **Linux**, for example you might see this command given to install the Pygame Zero library:
 
     ```bash
     sudo pip3 install pgzero
@@ -132,5 +132,6 @@ Now that you can use Python from the command line, you can use pip! These instru
 ## What next?
 
 Have fun using pip to install lots of new packages! Why not try these resources which require Python libraries to be installed:
-- [Getting started with GUIs](http://www.raspberrypi.org/learning/getting-started-with-guis)
+
+- [Getting started with GUIs](https://www.raspberrypi.org/learning/getting-started-with-guis)
 - [Shakespearean insult generator](https://www.raspberrypi.org/learning/shakespearean-insult-generator/)
