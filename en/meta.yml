@@ -1,0 +1,24 @@
+---
+title: Using pip on Windows
+hero_image: images/banner.png
+description: Learn how to use pip on Windows to easily install useful Python software.
+original_url: https://raspberrypi.org/learning/using-pip-on-windows
+theme: red
+duration: 2
+listed: false
+ingredient: false
+copyedit: true
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+interests: ''
+technologies: rpi, physical computing, python
+site_areas: ''
+steps:
+- title: Introduction
+- title: What you will need
+- title: Using pip on Windows
+- title: What is pip?
+- title: Do I already have pip?
+- title: Is Python on your PATH?
+- title: Installing pip
+- title: What next?
+
