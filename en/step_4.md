@@ -1,24 +1,28 @@
-## What is pip?
+## Do I already have pip?
 
-If you have used Python before, you may have used code similar to these examples:
+First, let's check whether you already have pip installed:
 
-```python
-from time import sleep
-```
+- Open a command prompt by typing `cmd` into the search bar and then clicking on **Command Prompt** in the menu:
 
-...or perhaps...
+    ![Open a command prompt](images/cmd-prompt.png)
 
-```python
-import random
-```
+    If you are not using your own computer at home (for example, if you are using a computer on a school network), you may not see **Command Prompt** appear in the menu, or you may not be allowed to open it because you don't have administrator privileges. Please speak to your network manager about whether your network allows the use of the command prompt to install Python software, as it is common for access to be blocked. If you are not permitted to use the command prompt, pass this guide to your network manager so they can install Python libraries on your behalf.
 
-In the examples above, you are using code from a **library** written by somebody else. The libraries in the examples above are called `time` and `random` and are included by default when you install Python.
+- Type the following command into the command prompt and press Enter to see if pip is already installed:
 
-However, lots of other code libraries exist, and you might want to use some of their functions in your Python programs. For example, if you want to manipulate images you might want to use `PIL`, you could make games with `pygame` or craft GUIs with `guizero`. However, if you try to use these libraries without installing them, they won't work:
+    ```bash
+    pip --version
+    ```
 
-![PIL not working](images/pil-doesnt-work.png)
+- If pip is installed and working you will see a version number like this.
 
-This is where you need **pip**. You can use pip to install Python libraries on your computer so that you can use them in your programs. You have probably seen instructions for installing Python libraries in guides on the Raspberry Pi website and on other websites. A Raspberry Pi with the standard Raspbian distribution will have **pip** already installed. However, if you are using a Windows computer, you may not have pip available as standard.
+    ![Open a command prompt](images/pip-working.png)
 
-This resource will show you how to get pip working on a Windows computer.
+    If so, you already have pip and can install any Python module you like by typing the following into a command prompt:
+
+    ```bash
+    pip install name-of-module
+    ```
+
+    If you don't see a version number and instead get an error message, continue working through this guide.
 

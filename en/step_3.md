@@ -1,4 +1,24 @@
-## Using pip on Windows
+## What is pip?
 
-In this resource you will learn how to use pip on Windows so that you can easily install useful Python software.
+If you have used Python before, you may have used code similar to these examples:
+
+```python
+from time import sleep
+```
+
+...or perhaps...
+
+```python
+import random
+```
+
+In the examples above, you are using code from a **library** written by somebody else. The libraries in the examples above are called `time` and `random` and are included by default when you install Python.
+
+However, lots of other code libraries exist, and you might want to use some of their functions in your Python programs. For example, if you want to manipulate images you might want to use `PIL`, you could make games with `pygame` or craft GUIs with `guizero`. However, if you try to use these libraries without installing them, they won't work:
+
+![PIL not working](images/pil-doesnt-work.png)
+
+This is where you need **pip**. You can use pip to install Python libraries on your computer so that you can use them in your programs. You have probably seen instructions for installing Python libraries in guides on the Raspberry Pi website and on other websites. A Raspberry Pi with the standard Raspbian distribution will have **pip** already installed. However, if you are using a Windows computer, you may not have pip available as standard.
+
+This resource will show you how to get pip working on a Windows computer.
 

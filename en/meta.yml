@@ -1,4 +1,3 @@
----
 title: Using pip on Windows
 hero_image: images/banner.png
 description: Learn how to use pip on Windows to easily install useful Python software.
@@ -15,7 +14,6 @@ site_areas: ''
 steps:
 - title: Introduction
 - title: What you will need
-- title: Using pip on Windows
 - title: What is pip?
 - title: Do I already have pip?
 - title: Is Python on your PATH?
