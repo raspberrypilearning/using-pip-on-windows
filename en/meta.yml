@@ -4,7 +4,7 @@ description: Learn how to use pip on Windows to easily install useful Python sof
 original_url: https://raspberrypi.org/learning/using-pip-on-windows
 theme: red
 duration: 2
-listed: false
+listed: true
 ingredient: false
 copyedit: true
 curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
