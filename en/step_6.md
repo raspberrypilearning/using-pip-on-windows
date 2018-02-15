@@ -8,19 +8,19 @@ Now that you can use Python from the command line, you can use pip! These instru
     python -m pip install -U pip
     ```
 
-- Now you can use pip! You can install modules using the `pip install` command. For example, if you wanted to download the `guizero` library you would type this:
+- Now you can use pip! You can install modules using the `pip install` command. For example, if you wanted to download the `guizero` module you would type this:
 
     ```bash
     pip install guizero
     ```
 
-- If you use online guides, you may often see instructions for installing Python packages with pip on **Linux**, for example you might see this command given to install the Pygame Zero library:
+- If you use online guides, you may often see instructions for installing Python packages with pip on **Linux**, for example you might see this command given to install the Pygame Zero module:
 
     ```bash
     sudo pip3 install pgzero
     ```
 
-    This command won't work on Windows. To convert it into a command you can use, take the name of the library and type `pip install` in front of it:
+    This command won't work on Windows. To convert it into a command you can use, take the name of the module and type `pip install` in front of it:
 
     ```bash
     pip install pgzero
@@ -39,13 +39,13 @@ Upgrade an already installed module.
 pip install --upgrade name_of_module 
 ```
 
-Uninstall a library.
+Uninstall a module.
 
 ```bash
 pip uninstall name_of_module
 ```
 
-List installed libraries.
+List installed modules.
 
 ```bash
 pip list
