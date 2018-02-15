@@ -1,6 +1,6 @@
 # Using pip on Windows
 
-![](cover.png)
+![](/en/images/banner.png)
 
 In this resource you will learn how to use pip on Windows so that you can easily install useful Python software.
 
