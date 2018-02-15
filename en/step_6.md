@@ -8,7 +8,7 @@ Now that you can use Python from the command line, you can use pip! These instru
     python -m pip install -U pip
     ```
 
-- Now you can use pip! You can install libraries using the `pip install` command. For example, if you wanted to download the `guizero` library you would type this:
+- Now you can use pip! You can install modules using the `pip install` command. For example, if you wanted to download the `guizero` library you would type this:
 
     ```bash
     pip install guizero
