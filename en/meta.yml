@@ -17,6 +17,6 @@ steps:
 - title: What is pip?
 - title: Do I already have pip?
 - title: Is Python on your PATH?
-- title: Installing pip
+- title: Using pip
 - title: What next?
 

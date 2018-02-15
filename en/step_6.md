@@ -1,4 +1,4 @@
-## Installing pip
+## Using pip
 
 Now that you can use Python from the command line, you can use pip! These instructions should work for Python version 3.4 or above. If you are using an earlier version of Python, you can upgrade to a newer version from the [Python website](https://www.python.org/downloads/).
 
@@ -28,3 +28,25 @@ Now that you can use Python from the command line, you can use pip! These instru
 
     ![Successfully install pgzero](images/pip-install-pgzero.png)  
 
+
+### Other pip commands
+
+There is comprehensive [documentation for pip](https://pip.pypa.io) at [pip.pypa.io](https://pip.pypa.io), but here are a few useful commands:
+
+Upgrade an already installed module.
+
+```bash
+pip install --upgrade name_of_module 
+```
+
+Uninstall a library.
+
+```bash
+pip uninstall name_of_module
+```
+
+List installed libraries.
+
+```bash
+pip list
+```
