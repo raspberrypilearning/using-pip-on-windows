@@ -1,10 +1,10 @@
-## What you will make
-In this resource you will learn how to use pip on Windows, so that you can easily install useful Python software.
+## आप क्या बनाएँगे
+इस संसाधन में आप सीखेंगे कि windows पर pip का उपयोग कैसे करें, ताकि आप आसानी से उपयोगी Python सॉफ्टवेयर स्थापित (install) कर सकें।
 
-## What you will learn
-By following this guide you will learn:
+## आप क्या सीखेंगे
+इस गाइड का पालन करने से आप सीखेंगे:
 
-- What is pip?
-- How to add Python to your path
-- How to use pip to install Python packages on Windows
+- Pip क्या है?
+- अपने Path में Python कैसे जोड़ें?
+- विंडोज में Python पैकेज इंस्टॉल करने के लिए pip का उपयोग कैसे करें
 
