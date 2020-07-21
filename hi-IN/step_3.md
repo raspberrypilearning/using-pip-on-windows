@@ -1,21 +1,21 @@
-## What is pip?
+## Pip क्या है?
 
-If you have used Python before, you may have used code similar to this:
+यदि आपने इससे पहले Python का उपयोग किया है, तो आपने इसके जैसा कोड का उपयोग किया होगा |
 
 ```python
 from time import sleep
 ```
 
-Or perhaps this:
+या शायद यह:
 
 ```python
 import random
 ```
 
-In the examples above, you are importing a **module** in order to use code written by somebody else. The modules in the examples are called `time` and `random`, and are included by default when you install Python.
+ऊपर दिए गए उदाहरणों में, किसी और के द्वारा लिखे गए कोड का उपयोग करने के लिए आप ** module ** import कर रहे हैं | उदाहरणों के मॉड्यूल ` time ` और ` random ` है, और जब आप Python इंस्टॉल करते हैं तो डिफ़ॉल्ट रूप से शामिल होते हैं।
 
-However, people have written lots of other Python modules, and you might want to use some of their functions in your Python programs. For example, if you want to manipulate images you might want to use `PIL`, or you could make games with `pygame`, or craft GUIs with `guizero`. However, if you try to use these modules without installing them, they won't work:
+हालाँकि, लोगों ने बहुत से अन्य Python मॉड्यूल लिखे हैं, और आप अपने Python प्रोग्राम में उनके कुछ फंक्शन का उपयोग करना चाह सकते हैं। उदाहरण के लिए, यदि आप उन चित्रों में हेरफेर करना चाहते हैं तो आप ` PIL ` का उपयोग करना चाह सकते हैं, या आप ` pygame `के साथ गेम बना सकते हैं, या ` guizero` के साथ GUI बना सकते हैं । हालाँकि, यदि आप इन मॉड्यूल को इंस्टॉल किए बिना उपयोग करने का प्रयास करते हैं, तो वे काम नहीं करेंगे:
 
-![PIL not working](images/pil-doesnt-work.png)
+![PIL काम नहीं कर रहा](images/pil-doesnt-work.png)
 
-This is where **pip** comes in. To be able to use use external Python modules in your programs, you can use the pip tool to install them on your computer. (You have probably already seen instructions for installing Python modules with pip in guides on the Raspberry Pi website and on other websites.) A Raspberry Pi with the standard version of Raspbian has pip already installed. However, your Windows computer may not have pip on it yet. Let's change that!
+यह वह जगह है जहां ** pip** आता हैं। अपने प्रोग्राम में external Python मॉड्यूल का उपयोग करने में सक्षम होने के लिए, आप उन्हें अपने कंप्यूटर पर स्थापित करने के लिए Pip टूल का उपयोग कर सकते हैं। (आपने शायद Raspberry Pi वेबसाइट और अन्य वेबसाइटों पर गाइड में pip के साथ Python मॉड्यूल इंस्टॉल करने के निर्देश पहले से ही देखे होंगे।) Raspbian के मानक संस्करण के साथ एक Raspberry Pi में पहले से ही pip इन्स्टाॅल्ड होता है। हालाँकि, आपके विंडोज कंप्यूटर में शायद अभी तक pip नहीं होगा | आइए इसे बदलते हैं
