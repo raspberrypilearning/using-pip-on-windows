@@ -1,27 +1,27 @@
-## Do I already have pip?
+## क्या मेरे पास pip पहले से ही मौजूद है?
 
-First, let's check whether you already have pip installed:
+पहले, आइए देखें कि क्या आपके पास पहले से ही pip इन्स्टाॅल्ड है:
 
-- Open a command prompt by typing `cmd` into the search bar in the Start menu, and then clicking on **Command Prompt**:
+- स्टार्ट मेन्यू में जा कर सर्च बार में, ` cmd ` टाइप करके कमांड प्रॉम्प्ट खोलें और फिर ** कमांड प्रॉम्प्ट ** पर क्लिक करें:
 
-    ![Open a command prompt](images/cmd-prompt.png)
+    ![कमांड प्रॉम्प्ट खोलें](images/cmd-prompt.png)
 
-    If you are **not** using your own computer at home (for example, if you are using a computer on a school network), you may not see **Command Prompt** appear in the menu, or you may not be allowed to open it because you don't have administrator privileges. In that case, please speak to your network manager about whether your network allows the use of the command prompt to install Python software. If you are not permitted to use the command prompt, pass this guide to your network manager so they can install Python modules on your behalf.
+    यदि आप घर पर अपने स्वयं के कंप्यूटर का उपयोग ** नहीं ** कर रहे (उदाहरण के लिए, यदि आप स्कूल नेटवर्क पर कंप्यूटर का उपयोग कर रहे हैं), तो आप ** कमांड प्रॉम्प्ट ** को मेन्यू में नहीं देख सकते, या आपको इसे खोलने की अनुमति नहीं है, क्योंकि आपके पास administrator privileges नहीं हैं। उस स्थिति में, कृपया अपने नेटवर्क प्रबंधक(मैनेजर) से बात करें कि क्या आपका नेटवर्क Python सॉफ़्टवेयर इन्स्टाॅल करने के लिए कमांड प्रॉम्प्ट के उपयोग की अनुमति देता है। यदि आपको कमांड प्रॉम्प्ट उपयोग करने की अनुमति नहीं है, तो अपने नेटवर्क प्रबंधक को यह गाइड करें कि वे आपकी ओर से Python मॉड्यूल स्थापित कर सकें।
 
-- Type the following command into the command prompt and press <kbd>Enter</kbd> to see if pip is already installed:
+- कमांड प्रॉम्प्ट में निम्नलिखित कमांड टाइप करें और <kbd> Enter </kbd> दबाएं यह देखने के लिए कि क्या pip पहले से इन्स्टाॅल्ड है:
 
     ```bash
     pip --version
     ```
 
-- If pip is installed and working, you will see a version number like this:
+- यदि pip इन्स्टाॅल्ड और काम कर रहा है, तो आपको इस तरह version no. दिखाई देगा:
 
-    ![Open a command prompt](images/pip-working.png)
+    ![कमांड प्रॉम्प्ट खोलें](images/pip-working.png)
 
-- If you do, you're ready to use pip to install any Python module you like by typing the following into a command prompt (replace `name-of-module` with the name of your module):
+- यदि ऎसा ही दिख रहा है, तो आप कमांड प्रॉम्प्ट में निम्नलिखित कमांड से अपने पसन्द अनुसार किसी भी Python मॉड्यूल को इन्स्टाॅल करने के लिए pip का उपयोग करने के लिए तैयार हैं, (` name-of-module ` को मॉड्यूल के नाम के साथ बदलें):
 
     ```bash
     pip install name-of-module
     ```
 
-- If you don't see a version number and instead get an error message, continue working through this guide.
+- यदि आपको एक version no. दिखाई नहीं देती है और इसके बजाय एक error message मिलता है, तो इस गाइड के माध्यम से काम करना जारी रखें।
