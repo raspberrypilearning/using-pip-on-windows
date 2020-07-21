@@ -1,45 +1,45 @@
-## Is Python in your `PATH`?
+## क्या Python आपके `PATH` में है?
 
-If you walked outside and found a python on your path, that would be really bad! However, we're talking about whether the location of Python is in the Windows `PATH`, which is the list of places where Windows automatically looks for software.
+यदि आप बाहर चले गए और अपने रास्ते पर एक Python पाया, तो यह वास्तव में बुरा होगा! हालाँकि, हम इस बारे में बात कर रहे हैं कि क्या Python का location विंडोज ` PATH ` में है, जो उन स्थानों की सूची है जहां विंडोज स्वचालित रूप से सॉफ्टवेयर ढुंढ़ता है।
 
-- In the command prompt, type `python` and press <kbd>Enter</kbd>. If Python is in your `PATH`, you should see it start up:
+- कमांड प्रॉम्प्ट में, ` Python ` टाइप करें और <kbd> Enter </kbd> दबाएं । यदि Python आपके `PATH` में है, तो यह आपको शुरू होते दिखेगा:
 
-    ![Python is on the path](images/python-working.png)
+    ![Python path में है](images/python-working.png)
 
-    If you saw Python start up, skip to the next section. If you saw an error message instead, follow the steps below to add Python to your `PATH`.
+    यदि आपने Python शुरू होते देखा है, तो अगले भाग पर जाएं। अगर आपको इसके बजाय एक त्रुटि संदेश दिखाई दिया, तो अपने ` PATH` में Python को जोड़ने के लिए नीचे दिए गए स्टेप्स का पालन करें ।
 
-- In the Windows search bar, type in `python.exe`, but **don't** click on it in the menu. Instead, **right-click** on it, and select **Open file location**
+- विंडोज सर्च बार में, ` python.exe ` टाइप करें, लेकिन मेनू में इस पर क्लिक ** न ** करें। इसके बजाय, उस पर **राइट-क्लिक ** करें, और ** Open फ़ाइल location ** का चयन करें
 
-    ![Find where Python is installed](images/find-python-location.png)
+    ![खोजें कि Python कहाँ इन्स्टाॅल्ड है](images/find-python-location.png)
 
-- A window will open up with some files and folders: this should be where Python is installed. Right-click on the address bar at the top and select **Copy address as text**.
+- कुछ फ़ाइलों और फ़ोल्डरों के साथ एक विंडो खुल जाएगी: यह वह जगह होगी जहां Python इन्स्टाॅल्ड है। सबसे ऊपर एड्रेस बार पर राइट-क्लिक करें और ** Copy address as text ** का चयन करें ।
 
-    ![Copy Python location](images/copy-address.png)
+    ![Python की लोकेशन काॅपी करें](images/copy-address.png)
 
-    Note: if the address bar contains the words **Start menu**, then you are probably looking at a shortcut to Python. Right-click on the file called `Python 3.x` (where `3.x` is the version number of your Python installation) and select **Open file location** until you see a folder containing a file called `python.exe`.
+    नोट: यदि एड्रेस बार में ** Start menu **शब्द है, तो आप शायद Python के लिए एक शॉर्टकट देख रहे हैं। ` Python 3.x `नामक फ़ाइल पर राइट-क्लिक करें (जहाँ ` 3.x ` आपके Python इंस्टॉलेशन का वर्ज़न नम्बर है) और ** Open फ़ाइल location **का चयन करें जब तक आपको एक फ़ोल्डर दिखाई न दे, जिसमें ` python.exe ` नामक फ़ाइल हो।
 
-- From the main Windows menu, open the Control Panel:
+- मुख्य(main) विंडोज मेन्यू से, Control Panel खोलें:
 
-    ![Open control panel](images/control-panel.png)
+    ![Control panel खोलें](images/control-panel.png)
 
-- In the search box on the top right, type in `environment`, and in the search results, click on **Edit environment variables for your account**:
+- शीर्ष दाईं ओर खोज बॉक्स में, ` environment ` टाइप करें, और खोज परिणामों में, ** अपने खाते के लिए संपादन करना environment वेरिएबल ** पर क्लिक करें:
 
-    ![Environment variables](images/environment.png)
+    ![Environment वेरिएबल](images/environment.png)
 
-- If there is already a variable listed called **Path**, click on it to select it, then click **Edit...**. If it does not exist, instead click **New...**.
+- यदि पहले से ही एक वेरियबल सूचीबद्ध है जिसे ** Path ** कहा जाता है, इसे चुनने के लिए उस पर क्लिक करें, फिर ** संपादन करना...**... पर क्लिक करें । यदि यह मौजूद नहीं है, तो इसके बजाय ** New... ** क्लिक करें ।
 
-    ![Access path variable](images/env-variables.png)
+    ![Access path वेरिएबल](images/env-variables.png)
 
-- If your pop-up box looks like the image below, click **New** and then paste in the address you just copied. Then click **New** again, paste in the address again, and add `Scripts\` at the end. Click **OK** twice to finish editing your environment variables.
+- यदि आपका पॉप-अप बॉक्स नीचे की छवि जैसा दिखता है, तो **New **को क्लिक करें और फिर उस address को पेस्ट करें जिसे आपने अभी कॉपी किया है। फिर से ** New** को क्लिक करें फिर address को फिर से पेस्ट करें, और अंत में 'Scripts\` जोड़ें। Environment variables की ईडिटिन्ग को पुरा करने के लिये ** OK **पर दो बार क्लिक करें
 
-    ![Add Python to the path](images/add-python-path.png)
+    ![Path में Python जोड़ें](images/add-python-path.png)
 
-- If your pop-up box has only a single line for the variable value, paste in the address, type a semicolon (`;`), then paste in the address again and add `Scripts\` at the end. Click **OK** to finish editing environment variables.
+- यदि आपके पॉप-अप बॉक्स में वेरियबल वैल्यु के लिए केवल एक ही लाइन है, तो address में पेस्ट करें, एक अर्धविराम (semicolon) (`;`) टाइप करें, फिर address में पेस्ट करें और अंत में `Scripts\` जोड़ें। Environment variables की ईडिटिन्ग को पुरा करने के लिये ** OK **पर क्लिक करें
 
-    ![Add path in a single line box](images/small-popups.png)
+    ![सिंगल लाइन बॉक्स में path जोड़ें](images/small-popups.png)
 
-- If the the command prompt window is still open, close it and re-open it. This will make sure the changes have taken effect in the command prompt you are using.
+- यदि कमांड प्रॉम्प्ट विंडो अभी भी खुली है, तो इसे बंद करें और इसे फिर से खोलें। यह सुनिश्चित करेगा कि आपके द्वारा उपयोग किए जा रहे कमांड प्रॉम्प्ट में परिवर्तन प्रभावी तौर पर हुए हैं।
 
-- Once again, type in `python` at the command prompt and press the <kbd>Enter</kbd> key. You should now see Python start successfully. Press <kbd>Ctrl</kbd> + <kbd>c</kbd> to exit the Python shell.
+- एक बार फिर, कमांड प्रॉम्प्ट में `Python ` टाइप करें और <kbd>Enter </kbd> कुंजी दबाएं। अब आपको देखना चाहिए कि Python सफलतापूर्वक शुरू हुआ। Python शैल से बाहर निकलने के लिए।<kbd> Ctrl </kbd> + <kbd> C </kbd>दबाएं
 
 
