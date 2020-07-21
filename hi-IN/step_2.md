@@ -1,5 +1,5 @@
-## What you will need
+## आपको किन चीज़ों की आवश्यकता होगी
 
-### Hardware
+### हार्डवेयर
 
-* Computer running Windows
+* कंप्यूटर जिसमे विंडोज चल रहा है
