@@ -21,6 +21,6 @@ steps:
   - title: आपको किन चीज़ों की आवश्यकता होगी
   - title: Pip क्या है?
   - title: क्या मेरे पास pip पहले से ही मौजूद है?
-  - title: क्या आपके PATH में Python है?
+  - title: क्या Python आपके `PATH` में है?
   - title: Pip का उपयोग
   - title: आगे क्या?
