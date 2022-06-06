@@ -19,10 +19,12 @@ last_tested: 2017-01-01
 steps:
 - title: Introduction
 - title: What you will need
-  completion: engaged
 - title: What is pip?
 - title: Do I already have pip?
+  completion:
+  - engaged
 - title: Is Python in your PATH?
-  completion: internal
 - title: Using pip
+  completion:
+  - internal
 - title: What next?
