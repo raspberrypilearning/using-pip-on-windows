@@ -18,4 +18,4 @@ However, people have written lots of other Python modules, and you might want to
 
 ![PIL not working](images/pil-doesnt-work.png)
 
-This is where **pip** comes in. To be able to use use external Python modules in your programs, you can use the pip tool to install them on your computer. (You have probably already seen instructions for installing Python modules with pip in guides on the Raspberry Pi website and on other websites.) A Raspberry Pi with the standard version of Raspbian has pip already installed. However, your Windows computer may not have pip on it yet. Let's change that!
+This is where **pip** comes in. To be able to use external Python modules in your programs, you can use the pip tool to install them on your computer. (You have probably already seen instructions for installing Python modules with pip in guides on the Raspberry Pi website and on other websites.) A Raspberry Pi with the standard version of Raspbian has pip already installed. However, your Windows computer may not have pip on it yet. Let's change that!
