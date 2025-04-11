@@ -25,9 +25,15 @@ steps:
     title: Pip क्या है?
   - 
     title: क्या मेरे पास pip पहले से ही मौजूद है?
+    completion:
+      - engaged
   - 
     title: क्या आपके PATH में Python है?
   - 
     title: Pip का उपयोग
+    completion:
+      - internal
   - 
     title: आगे क्या?
+    completion:
+      - external
