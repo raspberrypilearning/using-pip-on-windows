@@ -1,0 +1,32 @@
+---
+title: Použití pip ve Windows
+hero_image: images/banner.png
+description: Nauč se instalovat Python software ve Windows pomocí pip
+original_url: https://raspberrypi.org/learning/using-pip-on-windows
+theme: green
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+interests: ''
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 3
+last_tested: 2017-01-01
+steps:
+  - title: Úvod
+  - title: Co budeš potřebovat
+  - title: Co je pip?
+  - title: Mám již pip? (nainstalován v systému)
+    completion:
+      - engaged
+  - title: Je Python v tvé PATH? (proměnná operačního systému)
+  - title: Použití pip
+    completion:
+      - internal
+  - title: Co dál?
+    completion:
+      - external
