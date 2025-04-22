@@ -1,5 +1,5 @@
-## What you will need
+## Co budeš potřebovat
 
 ### Hardware
 
-* Computer running Windows
+* Počítač se systémem Windows
