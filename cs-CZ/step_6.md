@@ -1,51 +1,51 @@
-## Using pip
+## Použití pip
 
-Now that you can use Python from the command line, you can use pip! The following instructions should work for Python version 3.4 and above. If you are using an older version of Python, you can upgrade Python via [the Python website](https://www.python.org/downloads/).
+Nyní, když můžeš používat Python z příkazového řádku, můžeš použít pip! Následující pokyny by měly fungovat pro Python verze 3.4 a vyšší. Pokud používáš starší verzi Pythonu, můžeš Python upgradovat přes [webové stránky Pythonu](https://www.python.org/downloads/).
 
-- In the command prompt window, type the following command to upgrade pip:
+- V okně příkazového řádku zadej následující příkaz pro upgrade pip:
 
     ```python
     python -m pip install -U pip
     ```
 
-- Now you can install modules using the `pip install` command. For example, if you wanted to download and install the `guizero` module, you would type this:
+- Nyní můžeš nainstalovat moduly pomocí příkazu `pip install`. Pokud bys například chtěl stáhnout a nainstalovat modul `guizero`, zadej toto:
 
     ```bash
     pip install guizero
     ```
 
-- If you use online guides, you might often see instructions for installing Python packages with pip on **Linux**. For example, you might see this command to install the Pygame Zero module:
+- Pokud používáš online průvodce, můžeš často vidět pokyny pro instalaci balíčků Pythonu s pip na **Linux**. Můžeš například vidět tento příkaz pro instalaci modulu Pygame Zero:
 
     ```bash
     sudo pip3 install pgzero
     ```
 
-    This command won't work on Windows. To convert it into a command you can use, take the name of the module and type `pip install` in front of it:
+    Tento příkaz nebude fungovat ve Windows. Chceš-li jej převést na příkaz, který můžeš použít, vezmi název modulu a před něj napište `pip install`:
 
     ```bash
     pip install pgzero
     ```
 
-    ![Successfully install pgzero](images/pip-install-pgzero.png)
+    ![Úspěšně nainstalovat modul pgzero](images/pip-install-pgzero.png)
 
 
-### Other pip commands
+### Další příkazy pip
 
-There is comprehensive documentation for pip at [pip.pypa.io](https://pip.pypa.io) — here are a few useful commands:
+Existuje komplexní dokumentace pro pip na adrese [pip.pypa.io](https://pip.pypa.io) — zde je několik užitečných příkazů:
 
-+ Upgrade an already installed module:
-
-```bash
-pip install --upgrade name_of_module 
-```
-
-+ Uninstall a module:
++ Upgrade již nainstalovaného modulu:
 
 ```bash
-pip uninstall name_of_module
+pip install --upgrade název_modulu 
 ```
 
-+ List installed modules:
++ Odinstalování modulu:
+
+```bash
+pip uninstall jméno_modulu
+```
+
++ Seznam nainstalovaných modulů:
 
 ```bash
 pip list
