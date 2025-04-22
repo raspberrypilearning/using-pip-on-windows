@@ -1,27 +1,27 @@
-## Do I already have pip?
+## Mám již pip? (nainstalován v systému)
 
-First, let's check whether you already have pip installed:
+Nejprve zkontroluj, zda již máš nainstalovaný pip:
 
-- Open a command prompt by typing `cmd` into the search bar in the Start menu, and then clicking on **Command Prompt**:
+- Otevřete příkazový řádek zadáním `cmd` do vyhledávacího pole v nabídce Start a poté kliknutím na **Příkazový řádek**:
 
-    ![Open a command prompt](images/cmd-prompt.png)
+    ![Otevři příkazový řádek](images/cmd-prompt.png)
 
-    If you are **not** using your own computer at home (for example, if you are using a computer on a school network), you may not see **Command Prompt** appear in the menu, or you may not be allowed to open it because you don't have administrator privileges. In that case, please speak to your network manager about whether your network allows the use of the command prompt to install Python software. If you are not permitted to use the command prompt, pass this guide to your network manager so they can install Python modules on your behalf.
+    Pokud **nepoužíváš** svůj vlastní počítač doma (například pokud používáš počítač ve školní síti), možná se v nabídce nezobrazí **Příkazový řádek**. Může se stát, že ti možná nebude povoleno jej otevřít, protože nemáš oprávnění správce. V takovém případě si prosím promluv s učitelem, nebo správcem sítě o tom, zda vaše síť umožňuje použití příkazového řádku k instalaci Python softwaru. Pokud nemáš oprávnění používat příkazový řádek, předej tuto příručku svému učiteli/správci sítě, aby za tebe mohl nainstalovat moduly Pythonu.
 
-- Type the following command into the command prompt and press <kbd>Enter</kbd> to see if pip is already installed:
+- Do příkazového řádku zadej následující příkaz a stiskni <kbd>Enter</kbd>, abys zjistil, zda je pip již nainstalován:
 
     ```bash
     pip --version
     ```
 
-- If pip is installed and working, you will see a version number like this:
+- Pokud je pip nainstalován a funguje, uvidíš číslo verze, jako je toto:
 
-    ![Open a command prompt](images/pip-working.png)
+    ![Otevři příkazový řádek](images/pip-working.png)
 
-- If you do, you're ready to use pip to install any Python module you like by typing the following into a command prompt (replace `name-of-module` with the name of your module):
+- Pokud ano, jsi připraven použít pip k instalaci jakéhokoli Pythonového modulu, který se ti líbí. Zadáním následujícího příkazu do příkazového řádku (nahraď `název modulu` názvem požadovaného modulu) modul nainstaluješ:
 
     ```bash
-    pip install name-of-module
+    pip install jméno-požadovaného-modulu
     ```
 
-- If you don't see a version number and instead get an error message, continue working through this guide.
+- Pokud nevidíte číslo verze a místo toho se vám zobrazí chybová zpráva, pokračujte v práci s tímto průvodcem. (pip není na počítači nainstalován)
