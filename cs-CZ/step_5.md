@@ -8,7 +8,7 @@ Pokud jsi šel venku a našel krajtu na své cestě, bylo by to opravdu špatné
 
     Pokud jsi viděl spuštění Pythonu, přeskoč na další sekci. Pokud se ti místo toho zobrazila chybová zpráva, postupuj podle níže uvedených kroků a přidej Python do své `PATH`.
 
-- Do vyhledávacího pole Windows zadejte `python.exe`, ale **** na něj v nabídce neklikejte. Místo toho na něj **klikni pravým tlačítkem**a vyber **Otevřít umístění souboru**
+- Do vyhledávacího pole Windows zadejte `python.exe`, ale na něj v nabídce **neklikejte**. Místo toho na něj **klikni pravým tlačítkem** a vyber **Otevřít umístění souboru**
 
     ![Najdi místo, kde je Python nainstalován](images/find-python-location.png)
 

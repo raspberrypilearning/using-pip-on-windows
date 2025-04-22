@@ -12,7 +12,7 @@ Nebo možná toto:
 import random
 ```
 
-Ve výše uvedených příkladech importujete **modul** za účelem použití kódu napsaného někým jiným. Moduly v příkladech se nazývají `time` a `random`a jsou standardně zahrnuty při instalaci Pythonu.
+Ve výše uvedených příkladech importujete **modul** za účelem použití kódu napsaného někým jiným. Moduly v příkladech se nazývají `time` a `random` a jsou standardně zahrnuty při instalaci Pythonu.
 
 Lidé však napsali spoustu dalších modulů Pythonu a možná budeš chtít použít některé z jejich funkcí ve svých programech Python. Pokud například chceš manipulovat s obrázky, můžeš použít `PIL`, nebo můžeš vytvářet hry s `pygame`, nebo vytvářet GUI s `guizero`. Pokud se však pokusíš použít tyto moduly bez jejich instalace, nebudou fungovat:
 
