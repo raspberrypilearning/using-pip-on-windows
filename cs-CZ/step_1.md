@@ -1,10 +1,10 @@
-## What you will make
-In this resource you will learn how to use pip on Windows, so that you can easily install useful Python software.
+## Co budeš dělat
+V tomto zdroji se naučíš, jak používat pip na Windows, aby sis mohl snadno nainstalovat užitečný Python software.
 
-## What you will learn
-By following this guide you will learn:
+## Co se naučíš
+Podle tohoto průvodce se naučíš:
 
-- What is pip?
-- How to add Python to your path
-- How to use pip to install Python packages on Windows
+- Co je pip?
+- Jak přidat Python do vaší proměnné operačního systému
+- Jak používat pip k instalaci balíčků Pythonu na Windows
 
