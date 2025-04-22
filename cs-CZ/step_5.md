@@ -1,45 +1,45 @@
-## Is Python in your `PATH`?
+## Je Python v tvé PATH? (proměnná operačního systému)
 
-If you walked outside and found a python on your path, that would be really bad! However, we're talking about whether the location of Python is in the Windows `PATH`, which is the list of places where Windows automatically looks for software.
+Pokud jsi šel venku a našel krajtu na své cestě, bylo by to opravdu špatné! Hovoříme však o tom, zda je umístění Pythonu ve Windows `PATH`, což je seznam míst, kde Windows automaticky hledají software.
 
-- In the command prompt, type `python` and press <kbd>Enter</kbd>. If Python is in your `PATH`, you should see it start up:
+- Do příkazového řádku zadejte `python` a stiskněte <kbd>Enter</kbd>. Pokud je Python ve vaší `PATH`, měli byste vidět, že se spouští:
 
-    ![Python is on the path](images/python-working.png)
+    ![Python je v PATH](images/python-working.png)
 
-    If you saw Python start up, skip to the next section. If you saw an error message instead, follow the steps below to add Python to your `PATH`.
+    Pokud jsi viděl spuštění Pythonu, přeskoč na další sekci. Pokud se ti místo toho zobrazila chybová zpráva, postupuj podle níže uvedených kroků a přidej Python do své `PATH`.
 
-- In the Windows search bar, type in `python.exe`, but **don't** click on it in the menu. Instead, **right-click** on it, and select **Open file location**
+- Do vyhledávacího pole Windows zadejte `python.exe`, ale **** na něj v nabídce neklikejte. Místo toho na něj **klikni pravým tlačítkem** a vyber **Otevřít umístění souboru**
 
-    ![Find where Python is installed](images/find-python-location.png)
+    ![Najdi místo, kde je Python nainstalován](images/find-python-location.png)
 
-- A window will open up with some files and folders: this should be where Python is installed. Right-click on the address bar at the top and select **Copy address as text**.
+- Otevře se okno s některými soubory a složkami: zde by měl být nainstalován Python. Klikni pravým tlačítkem na adresní řádek nahoře a vyber **Otevřít umístění souboru**.
 
-    ![Copy Python location](images/copy-address.png)
+    ![Zkopíruj umístění Pythonu](images/copy-address.png)
 
-    Note: if the address bar contains the words **Start menu**, then you are probably looking at a shortcut to Python. Right-click on the file called `Python 3.x` (where `3.x` is the version number of your Python installation) and select **Open file location** until you see a folder containing a file called `python.exe`.
+    Poznámka: Pokud adresní řádek obsahuje slova **Nabídka Start**, pak se pravděpodobně díváš na zástupce Pythonu. Klikni pravým tlačítkem myši na soubor s názvem `Python 3.x` (kde `3.` je číslo verze instalace v Pythonu) a vyber **Otevři umístění souboru**, dokud neuvidíš složku obsahující soubor s názvem `python. xe`.
 
-- From the main Windows menu, open the Control Panel:
+- Z hlavní nabídky Windows otevři Ovládací panely:
 
-    ![Open control panel](images/control-panel.png)
+    ![Otevři ovládací panel](images/control-panel.png)
 
-- In the search box on the top right, type in `environment`, and in the search results, click on **Edit environment variables for your account**:
+- Do vyhledávacího pole vpravo nahoře zadej `prostředí`a ve výsledcích vyhledávání klikni na **Upravit proměnné prostředí**:
 
-    ![Environment variables](images/environment.png)
+    ![Proměnné prostředí](images/environment.png)
 
-- If there is already a variable listed called **Path**, click on it to select it, then click **Edit...**. If it does not exist, instead click **New...**.
+- Pokud již existuje proměnná nazvaná **Path**, kliknutím na ni ji vyber a poté klikni na **Upravit...**. Pokud neexistuje, klikni místo toho na **Nová...**.
 
-    ![Access path variable](images/env-variables.png)
+    ![Proměnná přístupové cesty](images/env-variables.png)
 
-- If your pop-up box looks like the image below, click **New** and then paste in the address you just copied. Then click **New** again, paste in the address again, and add `Scripts\` at the end. Click **OK** twice to finish editing your environment variables.
+- Pokud tvé vyskakovací okno vypadá jako na obrázku níže, klikni na **Nová** a vlož adresu, kterou jsi právě zkopíroval. Poté znovu klikni na **Nová**, vlož adresu znovu a na konec přidej `Skripts\`. Klikni dvakrát na **OK** pro dokončení úprav proměnných prostředí.
 
-    ![Add Python to the path](images/add-python-path.png)
+    ![Přidej Python do PATH](images/add-python-path.png)
 
-- If your pop-up box has only a single line for the variable value, paste in the address, type a semicolon (`;`), then paste in the address again and add `Scripts\` at the end. Click **OK** to finish editing environment variables.
+- Pokud má tvé vyskakovací okno pouze jeden řádek pro proměnnou hodnotu, vlož adresu, zadej středník (`;`), poté znovu vlož adresu a přidej `Scripts\` na konec. Klepnutím na **OK** dokončíš úpravy proměnných prostředí.
 
-    ![Add path in a single line box](images/small-popups.png)
+    ![Přidání PATH in a single line box](images/small-popups.png)
 
-- If the the command prompt window is still open, close it and re-open it. This will make sure the changes have taken effect in the command prompt you are using.
+- Pokud je okno příkazového řádku stále otevřené, zavři jej a znovu otevři. Tím se ujistíš, že se změny projevily v příkazovém řádku, který používáš.
 
-- Once again, type in `python` at the command prompt and press the <kbd>Enter</kbd> key. You should now see Python start successfully. Press <kbd>Ctrl</kbd> + <kbd>c</kbd> to exit the Python shell.
+- Ještě jednou zadej `python` v příkazovém řádku a stiskni klávesu <kbd>Enter</kbd>. Nyní bys měl vidět úspěšné spuštění Pythonu. Stisknutím <kbd>Ctrl</kbd> + <kbd>c</kbd> ukončíš prostředí Pythonu.
 
 
